@@ -13,8 +13,11 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
         crossorigin="anonymous"
       />
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="/js/main.js" async defer></script>
     </head>
     <body>
+
         <div class="container-fluid">
             <header class="row align-items-center">
               <div class="col">
@@ -23,20 +26,35 @@
               <div class="col-md-auto">
                 <ul class="nav">
                   <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link active" href="/html/index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="movieGen.html">Movie Generator</a>
+                    <a class="nav-link" href="/html/">Movie Generator</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="/html/contact.html">Contact</a>
                   </li>
                 </ul>
               </div>
             </header>
           </div>
           <hr/>
+        <div class="container-fluid text-center">
+          <input id="inputSearch" name="search" class="searchBar" type="text" placeholder="Search..">
+          <button id="searchButton" onclick="searchButton()">Search Movies!</button>
+        </div>
+
+        <div class="container row">
+        <div class="col"id="showMovie">
+
+        </div>
+        <hr>
+        <div class="col">
+          <h4 class="text-center">Movie List:</h4>
+          <div id="watchedList"class="text-center">Watched:</div>
+          <div id="mustWatchedList" class="text-center">Watch Wishlist:</div>
+        </div>
+        </div>
         
-        <script src="" async defer></script>
     </body>
 </html>
