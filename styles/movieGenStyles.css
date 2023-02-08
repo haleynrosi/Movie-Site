@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Assistant:wght@300&display=swap');
+
+* {
+    font-family: 'Abril Fatface', cursive;
+  
+    
+}
+
+
+body {
+    background-image: url("../styles/MoviePosterCollage.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.introParagraph {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: black;
+    color: white;
+    padding: 1.5%
+
+}
+
+.popularDiv {
+    border-style: solid;
+    display: flex;
+    content: column;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.nowPlayingDiv {
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.topRatedDiv {
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+
+ .popularChoiceStyle {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+ .nowPlayingStyle {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+ .topRatedStyle {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
